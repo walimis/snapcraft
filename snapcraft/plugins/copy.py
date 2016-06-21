@@ -65,6 +65,9 @@ class CopyPlugin(snapcraft.BasePlugin):
 
         return schema
 
+    def enable_cross_compilation(self):
+        pass
+
     def build(self):
         super().build()
 
